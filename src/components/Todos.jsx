@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function Todos(){
     const [text, setText] = useState('')
-    const [todos] = useState([
+    const [todos, setTodos] = useState([
         { id: 1, text: 'Learn the spread operator', completed: false },
         { id: 2, text: 'Set up Tailwind', completed: true },
     ])
